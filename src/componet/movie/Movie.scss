@@ -1,0 +1,19 @@
+@import '../../style/Variables/Variables.scss' ; 
+
+.single-movie{
+    padding: 16px;
+    width: 18%;
+    background-color: $grayColor;
+    transition: transform .2s;
+    .poster {
+        width: 100%;
+        height: 80%;
+    }
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+.desc {
+    font-weight: 700;
+    font-size: 18px;
+}

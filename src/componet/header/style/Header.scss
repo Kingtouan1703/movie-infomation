@@ -1,0 +1,32 @@
+@import '../../../style/Variables/Variables.scss' ;
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    background-color: $blackColor  ;
+    z-index: 100    ;
+    .logoContainer{
+        margin-left: 20px;
+    }
+    .SearchContainer{
+        display: flex;
+        margin-right: 20px;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.logo {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+.userLogo {
+    color:$whiteColor;
+}

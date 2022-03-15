@@ -1,0 +1,51 @@
+@import '../../style/Variables/Variables.scss'; 
+
+.container {
+    padding: 40px 0px;
+    background-color: $grayColor ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singleMovie-container{
+    border-radius: 10px;
+    margin:  40px;
+    width: 80%;
+    display:  flex;
+    justify-content: space-between;
+    background-color: rgba(0, 152, 253,0.3);
+
+}
+.title {
+  color: $blackColor;
+  font-size: 40px;
+  letter-spacing: 5px;
+  top: 50%;
+  text-shadow: 
+    3px 3px 0px rgba(10, 10, 10,0.5),
+    
+}
+.desc-container{
+    padding-left: 10px; 
+    width: 60%;
+    h2{
+        text-align: center;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .plot{
+        font-size: 20px;
+        font-weight: 500;
+        font-style: italic;
+    }
+    p{
+        font-family: $fontFamily;
+        padding: 12px;
+    }
+    
+
+}
+

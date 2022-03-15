@@ -1,0 +1,25 @@
+.single-movie {
+  padding: 16px;
+  width: 18%;
+  background-color: rgba(206, 200, 200, 0.5);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.single-movie .poster {
+  width: 100%;
+  height: 80%;
+}
+
+.single-movie:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.desc {
+  font-weight: 700;
+  font-size: 18px;
+}
+/*# sourceMappingURL=Movie.css.map */

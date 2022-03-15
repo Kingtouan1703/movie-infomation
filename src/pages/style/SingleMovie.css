@@ -1,0 +1,62 @@
+.container {
+  padding: 40px 0px;
+  background-color: rgba(206, 200, 200, 0.5);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.singleMovie-container {
+  border-radius: 10px;
+  margin: 40px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(0, 152, 253, 0.3);
+}
+
+.title {
+  color: #111010;
+  font-size: 40px;
+  letter-spacing: 5px;
+  top: 50%;
+  text-shadow: 3px 3px 0px rgba(10, 10, 10, 0.5);
+}
+
+.desc-container {
+  padding-left: 10px;
+  width: 60%;
+}
+
+.desc-container h2 {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.desc-container .plot {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.desc-container p {
+  font-family: cursive;
+  padding: 12px;
+}
+/*# sourceMappingURL=SingleMovie.css.map */

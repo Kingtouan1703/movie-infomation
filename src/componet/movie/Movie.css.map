@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAA;EACT,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,GAAG;EACV,gBAAgB,ECAP,wBAAuB;EDChC,UAAU,EAAE,aAAa;CAQ5B;;AAZD,AAKI,aALS,CAKT,OAAO,CAAC;EACJ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,GAAG;CACd;;AARL,AASI,aATS,AASR,MAAM,CAAC;EACJ,SAAS,EAAE,WAAW;CACzB;;AAEL,AAAA,KAAK,CAAC;EACF,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "Movie.scss",
+        "../../style/Variables/Variables.scss"
+    ],
+    "names": [],
+    "file": "Movie.css"
+}
